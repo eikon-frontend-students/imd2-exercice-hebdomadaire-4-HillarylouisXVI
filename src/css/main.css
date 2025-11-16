@@ -41,6 +41,9 @@ body {
   color: white;
   font-weight: bold;
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .desktop {
@@ -49,6 +52,9 @@ body {
   font-weight: bold;
   text-align: center;
   border-radius: 0 10px 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .mobile.w65 {
   width: 195px;
@@ -86,4 +92,7 @@ body {
   height: 15px;
   background-color: #ffc233;
   margin-right: 5px;
+}
+.legend .box.Desktop {
+  background-color: #35d3c9;
 }
